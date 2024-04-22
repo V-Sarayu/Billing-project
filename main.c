@@ -85,7 +85,7 @@ int main() {
 
     switch (choice) {
         case 1:
-            inputCustomerDetails();
+            //inputCustomerDetails();
             generateBill();
             break;
         case 2:
