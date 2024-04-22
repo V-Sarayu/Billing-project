@@ -1,5 +1,9 @@
-Inventory:
-Inventory: 0.00 1998760236
-Inventory: 0.00 1998760236
-dove 39.00 83
-exo 34.00 80
+dove 39.00 81
+apple 27.00 90
+fogg 99.00 70
+munch 20.00 84
+milk 24.00 39
+ballpen 10.00 123
+classmate 52.00 47
+boomer 2.00 90
+cashew(100g) 99.00 82
