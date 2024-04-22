@@ -1,16 +1,14 @@
 #include <stdio.h>
+#include "structures.h"
 
 // Function to input customer details and write to file
-void inputCustomerDetails() {
-    char customerName[100]; // Adjust as needed
-    char customerContact[100]; // Adjust as needed
-
+void inputCustomerDetails(struct Customer *customer) {
     // Input customer details
     printf("Enter customer details:\n");
     printf("Name: ");
-    scanf("%s", customerName);
+    scanf("%s", customer->name);
     printf("Contact: ");
-    scanf("%s", customerContact);
+    scanf("%s", customer->contact);
 
     // Write customer details to file
     FILE *file = fopen("customer_details.txt", "w");
@@ -19,7 +17,8 @@ void inputCustomerDetails() {
         return;
     }
     fprintf(file, "Customer Details:\n");
-    fprintf(file, "Name: %s\n", customerName);
-    fprintf(file, "Contact: %s\n", customerContact);
+    fprintf(file, "Name: %s\n", customer->name);
+    fprintf(file, "Contact: %s\n", customer->contact);
     fclose(file);
 }
+
