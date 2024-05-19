@@ -5,7 +5,7 @@
 #include "structures.h"
 
 float calculateGST(float amount) {
-    return 0.04 * amount; // Assuming GST rate is 4%
+    return 0.03 * amount; // Assuming GST rate is 3%
 }
 
 int generateBillNumber() {
