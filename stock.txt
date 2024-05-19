@@ -7,3 +7,9 @@ ballpen 10.00 123
 classmate 52.00 47
 boomer 2.00 90
 cashew(100g) 99.00 82
+tide 79.00 99
+salt 43.00 96
+lays 20.00 88
+coke 40.00 97
+wheat 67.00 112
+redlabeltea 87.00 90
