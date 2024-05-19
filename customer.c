@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "structures.h"
+#include "customer.h"
 
 // Function to input customer details and write to file
 void inputCustomerDetails(struct Customer *customer) {
@@ -20,4 +20,3 @@ void inputCustomerDetails(struct Customer *customer) {
     fprintf(file, "Contact: %s\n", customer->contact);
     fclose(file);
 }
-
