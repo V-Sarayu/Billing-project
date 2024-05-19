@@ -16,7 +16,7 @@ void viewStock() {
     printf("---------------------------------\n");
     printf("| %-20s | %-8s | %-8s |\n", "Product Name", "Price", "Quantity");
     printf("---------------------------------\n");
-    char productName[100]; // Adjust as needed
+    char productName[100];
     float productPrice;
     int productQuantity;
     while (fscanf(file, "%s %f %d", productName, &productPrice, &productQuantity) != EOF) {
@@ -35,9 +35,9 @@ void updateStock() {
         return;
     }
     // Store stock data in arrays
-    char productNames[100][100]; // Adjust as needed
-    float productPrices[100]; // Adjust as needed
-    int productQuantities[100]; // Adjust as needed
+    char productNames[100][100]; 
+    float productPrices[100]; 
+    int productQuantities[100]; 
     int numProducts = 0;
     while (fscanf(file, "%s %f %d", productNames[numProducts], &productPrices[numProducts], &productQuantities[numProducts]) != EOF) {
         numProducts++;
