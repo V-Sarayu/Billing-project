@@ -1,7 +1,12 @@
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
-// Function to input customer details
-void inputCustomerDetails();
+struct Customer {
+    char name[100];
+    char contact[100];
+};
+
+void inputCustomerDetails(struct Customer *customer);
 
 #endif /* CUSTOMER_H */
+
