@@ -10,7 +10,7 @@ void inputCustomerDetails(struct Customer *customer) {
     scanf("%s", customer->contact);
 
     // Write customer details to file
-    FILE *file = fopen("customer_details.txt", "w");
+    FILE *file = fopen("customer_details.txt", "a");
     if (file == NULL) {
         printf("Error opening file.\n");
         return;
